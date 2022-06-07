@@ -35,6 +35,8 @@ Laravelインストール
 $ docker compose exec app bash
 $ composer install
 
+$ npm install
+
 envファイルコピー
 $ cp .env.example .env
 
