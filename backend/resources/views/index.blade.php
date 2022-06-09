@@ -44,7 +44,7 @@
 <a href="#modal" class='btn btn-primary csv-modal m-3'>CSVエクスポート</a>
 
 <!-- remodal -->
-<div class="remodal w80" data-remodal-id="modal">
+<div class="w80" >
     <form id='csvform' action="{{ route('contact.csv.export') }}" method="POST">
         @csrf
         <div class='row mb-3'>
